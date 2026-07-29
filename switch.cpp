@@ -7,7 +7,7 @@ int main()
     cout<<"1. reverse number";
     cout<<"2. check palindrome";
     cout<<"3. check armstrong";
-    cout<<"enter the choice"
+    cout<<"enter the choice";
     cout<<"Enter the number:";
     cin>>n;
     switch(choice){
