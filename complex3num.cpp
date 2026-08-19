@@ -49,3 +49,10 @@ int main()
 
     return 0;
 }
+
+/*Enter first complex number (real imaginary): 8 9
+Enter second complex number (real imaginary): 3 4
+Enter third complex number (real imaginary): 2 4
+
+Addition = 13 + 17i
+Subtraction = 3 + 1i*/
