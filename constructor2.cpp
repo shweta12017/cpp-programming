@@ -46,3 +46,9 @@ int main()
     r.display();
     return 0;
 }
+
+/*Enter the length:48
+Enter the breadth:2
+length:48
+breadth:2
+area:96*/
