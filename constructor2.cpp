@@ -17,7 +17,7 @@ class Rectangle
         length=l;
         breadth=b;
     }
-    Rectangle(const Rectangle &r)
+    Rectangle(const Rectangle &r)    //copy constructor
     {
         length=r.length;
         breadth=r.breadth;
