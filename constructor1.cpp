@@ -17,16 +17,37 @@ class employee
         cout<<"Enter the employee salary:";
         cin>>salary;
     }
+    employee(string i, string n, float s)   //parameterized constructor
+    {
+        id=i;
+        name=n;
+        salary=s;
+    }
+    employee(const employee &e)
+    {
+        id=e.id;
+        name=e.name;
+        salary=e.salary;
+    }
     void display()
     {
         cout<<"Employee ID:"<<id<<endl;
-        cout<<"Employee Nmae:"<<name<<endl;
+        cout<<"Employee Name:"<<name<<endl;
         cout<<"employee Salary:"<<salary<<endl;
     }
 };
 int main()
 {
-    employee e;
+    string id;
+    string name;
+    float salary;   
+    cout<<"Enter the employee id:";
+    cin>>id;
+    cout<<"Enter the employee name:";
+    cin>>name;
+    cout<<"Enter the employee salary:";
+    cin>>salary;
+    employee e(id, name, salary);
     e.display();
     return 0;
 }
