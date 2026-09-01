@@ -30,6 +30,7 @@ class Rectangle
     {
         cout<<"length:"<<length<<endl;
         cout<<"breadth:"<<breadth<<endl;
+        cout<<"area:"<<area<<endl;
     }
 };
 int main()
@@ -41,6 +42,7 @@ int main()
     cout<<"Enter the breadth:";
     cin>>breadth;
     Rectangle r(length, breadth);
+    r.cal_area();
     r.display();
     return 0;
 }
