@@ -10,12 +10,9 @@ class employee
     public:
     employee()    //default constructor
     {
-        cout<<"Enter the employee id:";
-        cin>>id;
-        cout<<"Enter the employee name:";
-        cin>>name;
-        cout<<"Enter the employee salary:";
-        cin>>salary;
+        id="Unknown";
+        name="Unknown";
+        salary=0;
     }
     employee(string i, string n, float s)   //parameterized constructor
     {
@@ -23,7 +20,7 @@ class employee
         name=n;
         salary=s;
     }
-    employee(const employee &e)
+    employee(const employee &e)    //copy constructor
     {
         id=e.id;
         name=e.name;
