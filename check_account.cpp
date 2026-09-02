@@ -48,7 +48,6 @@ int main()
     c.display();
     return 0;
 }
-
 /*deposited amount:5000
 withdrawn amount:3000
 fee applied:50
