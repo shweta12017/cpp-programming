@@ -24,17 +24,19 @@ class student
 class exam:public student
 {
     public:
-    int m1, m2, m3, m4, m5, total;
+    int marks[5];
+    int total=0;
     public:
     void calculate()
     {
         cout<<"marks of 5 subjets:";
-        cin>>m1>>m2>>m3>>m4>>m5;
-        total=m1+m2+m3+m4+m5;
+        for(int i=0;i<5;i++){
+            cin>>marks[i];
+            total=total+marks[i];
+        }
     }
     void displaytotal()
     {
-        cout<<"marks"<<m1<<endl<<m2<<endl<<m3<<endl<<m4<<endl<<m5<<endl;
         cout<<"total marks:"<<total<<endl;
     }
 };
@@ -60,18 +62,13 @@ int main()
 /*enter the roll number:68
 enter the name:shweta
 enter the department:cse
-marks of 5 subjets:50
-45
-67
+marks of 5 subjets:92
+93
+96
 94
-83
+95
 roll no:68
 name of student:shweta
 department:cse
-marks50
-45
-67
-94
-83
-total marks:339
-percentage:67*/
+total marks:470
+percentage:94*/
