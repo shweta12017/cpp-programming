@@ -15,9 +15,15 @@ class add
         temp.x=x+n.x;
         return temp;
     }
+    add operator-(add n)
+    {
+        add temp;
+        temp.x=x-n.x;
+        return temp;  
+    }
     void display()
     {
-        cout<<"sum:"<<x<<endl;
+        cout<<"value:"<<x<<endl;
     }
 };
 int main()
@@ -29,14 +35,21 @@ int main()
     n2.getdata();
     n3=n1+n2;
     n3.display();
+    n3=n1-n2;
+    n3.display();
     cout<<"enter third number:";
     n4.getdata();
     n3=n1+n2+n4;
     n3.display();
+    n3=n1-n2-n4;
+    n3.display();
     return 0;
 }
-/*enter first number:6
-enter second number:9
-sum:15
+
+/*enter first number:5
+enter second number:4
+value:9
+value:1
 enter third number:9
-sum:24*/
+value:18
+value:-8*/
