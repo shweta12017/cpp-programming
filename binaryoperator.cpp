@@ -35,3 +35,8 @@ int main()
     n3.display();
     return 0;
 }
+/*enter first number:6
+enter second number:9
+sum:15
+enter third number:9
+sum:24*/

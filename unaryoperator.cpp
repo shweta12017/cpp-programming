@@ -37,3 +37,10 @@ int main()
     obj.display();
     return 0;
 }
+/*enter the value:6
+original number:
+number=6
+After increment:
+number=7
+after - operator:
+number=-7*/
