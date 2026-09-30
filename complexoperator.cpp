@@ -45,7 +45,6 @@ int main()
     c3.display();
     return 0;
 }
-
 /*Enter real and imaginary part of first complex number: 5
 9
 Enter real and imaginary part of second complex number: 8
