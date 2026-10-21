@@ -4,4 +4,7 @@ friends
 Hello, Welcome to C++ File Handling!
  my college is good.
  nature is good freind.
+ i love mango. Hello, Welcome to C++ File Handling!
+ my college is good.
+ nature is good freind.
  i love mango. 
