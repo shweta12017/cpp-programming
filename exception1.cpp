@@ -40,3 +40,6 @@ int main()
       cout<<e.what();
     }
 }
+
+/*student age:20
+eligible*/

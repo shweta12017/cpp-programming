@@ -18,3 +18,7 @@ catch(int x)
     exit(0);
 }
 }
+
+/*Enter a and b:8
+0
+Exception:division by zero error*/
